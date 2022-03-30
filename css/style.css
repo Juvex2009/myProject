@@ -1,0 +1,59 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing:border-box;
+}
+
+
+.liceum{
+ 
+    text-align: center;
+    min-height: 600px;
+    
+}
+h1{
+
+    padding-top: 60px;
+    font-size: 60px;
+}
+.class1b{   
+    font-size: 30px;
+}
+.open{
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 20px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+    margin-top: 170px;
+    
+ }
+
+@media(max-width:1500px){
+    .class1b{
+        margin-top: 17%;
+    }
+}
+@media(min-width:1900px){
+    .class1b{
+        margin-top: 20%;
+    }
+    .open{
+        margin-top: 250px;
+    }
+}
+
+
+
+
+
+
